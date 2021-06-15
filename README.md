@@ -36,7 +36,7 @@ The scramble is passed in the format of following moves:
 
 Example - "F R U L' D B"
 
-### Credits
+# Credits
 
 I had additional help from [Kevin Karnani](https://github.com/kevinkarnani) and [Anthony Goncharenko](https://github.com/AnthonyGoncharenko) for improving and optimizing the code after the assignment. 
 
