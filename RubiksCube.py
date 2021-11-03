@@ -318,11 +318,6 @@ class cube:
                     openAndClosed[tempString] = ""
                 i = i + 1
 
-                #openAndClosed = [x.state.norm().string for x in OPEN]
-                #[openAndClosed.append(x.state.norm().string) for x in CLOSED if x.state.norm().string not in openAndClosed]
-
-                #openAndClosed = deque(list(set(openAndClosed)))
-
                 for mv in MOVES_LIST:
                     tempState = currentNode.state.applyMovesStr(mv).norm()
                     if (tempState.string not in openAndClosed):
